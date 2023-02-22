@@ -1,0 +1,13 @@
+class ReadInput
+    def sample
+        print "Enter a = "
+        a = gets.chomp.to_i
+        print "Enter b = "
+        b = gets.chomp.to_i
+        puts "___20WH1A1288___ "
+        c = a + b
+        puts "Addition = #{c}"
+    end
+end
+obj = ReadInput.new
+obj.sample
