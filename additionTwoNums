@@ -1,0 +1,14 @@
+class AdditionOfNums
+    def addNum
+        a = 10
+        b = 20
+        puts "___20WH1A1288___ "
+        print "a = ", a
+        puts " "
+        print "b = ", b
+        puts " "
+        print "Addition of two numbers = ", a+b
+    end
+end
+obj = AdditionOfNums.new
+obj.addNum
