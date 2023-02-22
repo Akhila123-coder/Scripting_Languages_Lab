@@ -1,0 +1,19 @@
+class Name
+    def sample
+      print "Enter a = "
+      r = gets.chomp
+      print "Enter b = "
+      s = gets.chomp
+      print "Enter c = "
+      t = gets.chomp
+      if r>s and r>t
+          puts " Greatest element among three numbers #{r}"
+      elsif s>t and s>r
+          puts " Greatest element among three numbers #{s}"
+      else
+         puts " Greatest element among three numbers #{t}"
+      end
+    end
+end
+obj = Name.new
+obj.sample
